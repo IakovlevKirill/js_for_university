@@ -1,0 +1,50 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 17%;
+}
+.form-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control {
+    padding: 24px 170px;
+    padding-left: 10px !important;
+    width: 40%;
+    border-radius: 10px;
+    text-align: start;
+    font-size: 20px;
+    margin-bottom: 6%;
+    border: 2px solid #ECEBED;
+}
+/* Глазочек */
+.password-control {
+    position: absolute;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    width: 20px;
+    height: 20px;
+    background: url(Eye_Hide.png) 0 0 no-repeat ;
+    color: #6979F8;
+}
+.password-control.view {
+    background: url(Eye.png) 0 0 no-repeat;
+}
+.in-button {
+    background-color: #6979F8;
+    justify-content: center;
+    display: flex;
+    color: #FFFFFF;
+    padding: 22px 180px;
+    border-radius: 10px;
+    width: 11.1%;
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+}
